@@ -7,38 +7,33 @@
     <link rel="stylesheet" href="pag.css">
 </head>
 <body>
-    <div id="cabecera">
-        Diseño HTML/CSS fluido
-    </div>
-    
-        <h1>
-            Ejemplo: Diseño fluido con dos columnas
-        </h1>
-    </div>
-    <div id="container">
-        <div id="columnas">
-            <div id="menu">
-        <nav>
-            <ul class="lista">
-                <li><a href="">Enlace 1</a></li>
-                <li><a href="">Enlace 2</a></li>
-                <li><a href="">Enlace 3</a></li>
-                <li><a  href="">Enlace 5</a></li>
-            </ul>
-        </nav>
-        </div>
-        <div id="contenido">
-        <main>
-            <p>Al cambiar la anchura de la ventana del navegador donde se este visualizando esta pagina web, los tamaños de las diferentes areas de la pagina se redimensionan.</p>
-            <img src="./imagen/logo-abrirllave.gif" alt="logo-abrirllave" >
-            <p>Observe que, la imagen tambien se redimensiona</p>
-        </main>
-        </div>
-        </div>
-    </div>
-<div id="pie">
-    <p>Ejemplo del <a class="link" href="https://www.w3schools.com/html/" >Tutorial de HTML</a> de Abrirllave</p>
-</div>
-    
+    <main>
+        <header id="cabecera">
+            <p>Diseño HTML/CSS fluido</p>
+        </header>     
+        <section>
+            <h1>Ejemplo: Diseño fluido con dos columnas</h1>
+        </section>
+        <section id="contenedor">
+            <section id="columnas">
+                <nav id="menu">
+                    <ul>
+                        <li><a href="#">Enlace 1</a></li>
+                        <li><a href="#">Enlace 2</a></li>
+                        <li><a href="#">Enlace 3</a></li>
+                        <li><a  href="#">Enlace 5</a></li>
+                    </ul>
+                </nav>
+                <article id="contenido">
+                    <p>Al cambiar la anchura de la ventana del navegador donde se este visualizando esta pagina web, los tamaños de las diferentes areas de la pagina se redimensionan.</p>
+                    <img src="./imagen/logo-abrirllave.gif" alt="logo-abrirllave" >
+                    <p>Observe que, la imagen tambien se redimensiona</p>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer id="pie">
+        <p>Ejemplo del <a class="link" href="https://www.w3schools.com/html/" target="_blank" >Tutorial de HTML</a> de Abrirllave</p>
+    </footer>
 </body>
 </html>
